@@ -8,20 +8,19 @@ body{
 }
 button{
     width: 100px;
-    cursor: pointer;
 }
 .mainContainer{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
+    gap: 50px;
 }
-#dropDownMenu{
+.dropDownMenu{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 5px;
-
     opacity: 0;
     background-color: hotpink;
     padding: 5px;
@@ -29,7 +28,7 @@ button{
     bottom: 5px;
     transition: all .5s;
 }
-.dropDownClick{
+.dropDownContainer{
     background-color: hotpink;
     padding: 5px;
 }
@@ -39,4 +38,8 @@ button{
     gap: 5px;
     padding: 5px;
     position: relative;
+}
+
+.dropDownShow{
+    
 }
