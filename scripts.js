@@ -11,6 +11,9 @@ toggleDropDown.forEach((button) =>{
                         button.parentNode.parentNode.lastChild.previousElementSibling.style.opacity  = 0
                         
                     }
+            button.parentNode.parentNode.addEventListener("mouseleave", () =>{
+                    button.parentNode.parentNode.lastChild.previousElementSibling.style.opacity  = 0 
+        })
             })
         }  
         if(button.parentNode.childNodes[1].id == "dropDownShowHover"){
